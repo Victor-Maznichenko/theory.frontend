@@ -1,0 +1,5 @@
+Builder для формы:
+
+const LoginForm = new Form().addInput({type: 'email', ...}).addInput({type: 'password', ...}).getComponent();
+
+<LoginForm />
